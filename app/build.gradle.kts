@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sit.lab8"
+    namespace = "com.sit.lab9"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sit.lab8"
+        applicationId = "com.sit.lab9"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
