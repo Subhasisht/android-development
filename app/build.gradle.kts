@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sit.myapplication"
+    namespace = "com.sit.lab8"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sit.myapplication"
+        applicationId = "com.sit.lab8"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
