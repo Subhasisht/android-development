@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sit.myapplication"
+    namespace = "com.example.lab14"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sit.myapplication"
+        applicationId = "com.example.lab14"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +66,12 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.androidx.runtime.livedata)
+    implementation("androidx.compose.runtime:runtime-livedata:1.0.0-beta01")
+    implementation("io.coil-kt:coil-compose:2.6.0")
+
+
+
 }
