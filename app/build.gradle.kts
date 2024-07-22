@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.sit.myapplication"
+    namespace = "com.example.lab_13"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.sit.myapplication"
+        applicationId = "com.example.lab_13"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -66,4 +66,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 }
