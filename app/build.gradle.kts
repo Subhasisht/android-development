@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.lab16"
+    namespace = "com.example.lab17"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.lab16"
+        applicationId = "com.example.lab17"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -60,9 +60,8 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.firebase.common.ktx)
-    implementation(libs.androidx.navigation.compose)
-    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -70,4 +69,9 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+
+    implementation ("com.google.android.gms:play-services-base:17.6.0")
+//    implementation ("com.google.android.gms:play-services-providerinstaller:17.0.0")
+
+
 }
