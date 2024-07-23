@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LAB18"
+rootProject.name = "LayoutDesignAssignment"
 include(":app")
